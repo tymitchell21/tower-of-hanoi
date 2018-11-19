@@ -1,3 +1,4 @@
+// Tyler and Missi completed this project
 let rods = document.querySelectorAll(".rod");
 let clicked = false;
 let rod1;
