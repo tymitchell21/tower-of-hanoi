@@ -14,7 +14,7 @@ function clickedRod (e) {
         // gets rid of border for rod1
         rod1.lastElementChild.style.border = "none"
         // calls moveRing function
-        moveRing(rod1, rod2)
+        moveRing()
     // if there isn't a previous clicked rod
     } else {
         // assigns current rod to rod1
@@ -26,7 +26,7 @@ function clickedRod (e) {
     clicked = !clicked
 }
 // moves ring from first clicked to second
-function moveRing (rod1, rod2) {
+function moveRing () {
     // if second rod has rings on it
     if (rod2.childElementCount > 0){
         // confirms that last child of rod 2's width is larger than last child of rod1
