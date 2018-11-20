@@ -72,8 +72,19 @@ h1 {
     align-items: center;
     font-size: 2em;
 }
+#win {
+    margin: 0 auto;
+    text-align: center;
+}
 #win h1 {
-    margin: 75px 0;
+    margin: 50px 0 20px 0;
     border: none;
     font-size: 4em;
+}
+#reset {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
 }

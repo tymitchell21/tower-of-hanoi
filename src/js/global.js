@@ -47,14 +47,22 @@ function moveRing (rod1, rod2) {
 function checkWin() {
     // makes sure rod 1 and 2 do not have any children
     if (rods[0].childElementCount === 0 && rods[1].childElementCount === 0) {
-        display('You Won!', 'h1', 'win')
+        display('You Won!', 'h1', 'win','')
+        display('Try Again', 'button', 'win', 'reset')
+        document.querySelector('#reset').addEventListener('click', reset)
     }
 }
 
+// resets page
+function reset() {
+    window.location.reload();
+}
+
 // function used to add element to existing html element
-function display (value, element, id) {
+function display (value, element, id, elementId) {
     // creates p element and adds x to it 
     var newElement = document.createElement(element);
+    newElement.id = elementId
     var newText = document.createTextNode(value);
     newElement.appendChild(newText);
     // adds p element to ans div
