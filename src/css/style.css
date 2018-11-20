@@ -26,7 +26,7 @@ h1 {
     height: 40px;
     width: 100px;
     background-color: red;
-    border-radius: 30%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ h1 {
     height: 40px;
     width: 150px;
     background-color: blue;
-    border-radius: 25%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ h1 {
     height: 40px;
     width: 200px;
     background-color: yellow;
-    border-radius: 20%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ h1 {
     height: 40px;
     width: 250px;
     background-color: green;
-    border-radius: 15%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ h1 {
     height: 40px;
     width: 300px;
     background-color: purple;
-    border-radius: 15%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
