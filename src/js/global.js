@@ -15,15 +15,17 @@ function clickedRod (e) {
         rod1.lastElementChild.style.border = "none"
         // calls moveRing function
         moveRing()
+        // toggles clicked value from true/false
+        clicked = !clicked
     // if there isn't a previous clicked rod
-    } else {
+    } else if (e.currentTarget.lastElementChild) {
         // assigns current rod to rod1
         rod1 = e.currentTarget
         // gives clicked rod's last child a border
         rod1.lastElementChild.style.border = "2px solid black"
+        // toggles clicked value from true/false
+        clicked = !clicked
     }
-    // toggles clicked value from true/false
-    clicked = !clicked
 }
 // moves ring from first clicked to second
 function moveRing () {
